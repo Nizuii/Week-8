@@ -22,7 +22,7 @@
     <li>The HTA triggers a PowerShell script (here named 24.ps1), which is heavily obfuscated. It uses shellcode to allocate memory (VirtualAlloc), make API calls dynamically, and inject the Remcos code into memory — so nothing (or very little) touches the disk.</li>
     <li>Because it runs in memory and uses legitimate Windows binaries, standard file-based antivirus may miss it.</li>
   </ul>
-  <li><strong>Control & persistence</strong></li>\
+  <li><strong>Control & persistence</strong></li>
   <ul>
     <li>Once in memory, Remcos sets up command-and-control (C2) communication: encrypted traffic to a remote server (over TLS) to receive commands, exfiltrate data.</li>
     <li>It sets up persistence (so it survives reboots) via registry “Run” keys. It also uses a mutex (identifier) to avoid reinfection.</li>
