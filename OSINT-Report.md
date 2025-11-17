@@ -1,0 +1,9 @@
+# 🛡️ OSINT Intelligence Report - Seán Halpin
+<strong>Author</strong>: Nizamudheen KN
+<strong>Date</strong>: 17th November 2025
+<strong>Target</strong>: Seán Halpin
+<strong>Report ID</strong>: OSINT-SEAN-2025-09-17
+
+</hr>
+
+The report summarizes passive OSINT reconnaissance performed against <strong>Seán Halpin</strong>. All collection was passive (WHOIS, DNS, Certificate Transparency logs, Shodan, Google Dorks, robots/header inspection, and visual mapping). No active scans, exploitation, or credential testing was performed.
