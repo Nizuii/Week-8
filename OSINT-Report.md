@@ -4,6 +4,6 @@
 <strong>Target</strong>: Seán Halpin </br>
 <strong>Report ID</strong>: OSINT-SEAN-2025-09-17 </br>
 
-</hr>
+---
 
 The report summarizes passive OSINT reconnaissance performed against <strong>Seán Halpin</strong>. All collection was passive (WHOIS, DNS, Certificate Transparency logs, Shodan, Google Dorks, robots/header inspection, and visual mapping). No active scans, exploitation, or credential testing was performed.
