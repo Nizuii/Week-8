@@ -43,14 +43,14 @@ OSINT (Open Source Intelligence) means gathering information about the target wh
 
 <h2>How OSINT works?</h2>
 <ol>
-  <li><stong>Frame the objective:</stong></li>
+  <li><strong>Frame the objective:</strong></li>
   What do you want to find? A person? A company? A threat?
-  <li><stong>Collect data:</stong></li>
+  <li><strong>Collect data:</strong></li>
   Use tools, search techniques, scraping, social media checks.
-  <li><stong>Validate:</stong></li>
+  <li><strong>Validate:</strong></li>
   Don’t trust surface-level info — verify with multiple sources.
-  <li><stong>Analyze:</stong></li>
+  <li><strong>Analyze:</strong></li>
   Patterns, timelines, connections, relationships.
-  <li><stong>Produce intelligence:</stong></li>
+  <li><strong>Produce intelligence:</strong></li>
   Summarize your finding in a clear, actionable form.
 </ol>
