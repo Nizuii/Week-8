@@ -1,8 +1,8 @@
 # 🛡️ OSINT Intelligence Report - Seán Halpin
-<strong>Author</strong>: Nizamudheen KN
-<strong>Date</strong>: 17th November 2025
-<strong>Target</strong>: Seán Halpin
-<strong>Report ID</strong>: OSINT-SEAN-2025-09-17
+<strong>Author</strong>: Nizamudheen KN </br>
+<strong>Date</strong>: 17th November 2025 </br>
+<strong>Target</strong>: Seán Halpin </br>
+<strong>Report ID</strong>: OSINT-SEAN-2025-09-17 </br>
 
 </hr>
 
