@@ -30,3 +30,27 @@ OSINT (Open Source Intelligence) means gathering information about the target wh
     <li>Geolocation analysis</li>
   </ul>
 </ol>
+
+<h2>What is OSINT used for?</h2>
+<ul>
+  <li><strong>Cyber Security:</strong> Identify threat actors, leaked credentials, exposed assets</li>
+  <li><strong>Pentesting:</strong> Recon to understand an organization before testing</li>
+  <li><strong>Law enforcement:</strong> Tracking suspects, fraud, missing persons</li>
+  <li><strong>Journalism:</strong> Investigation, fact-checking</li>
+  <li><strong>Business intelligence:</strong> Competitor research</li>
+  <li><strong>Personal security:</strong> Checking your own digital footprint</li>
+</ul>
+
+<h2>How OSINT works?</h2>
+<ol>
+  <li><stong>Frame the objective:</stong></li>
+  What do you want to find? A person? A company? A threat?
+  <li><stong>Collect data:</stong></li>
+  Use tools, search techniques, scraping, social media checks.
+  <li><stong>Validate:</stong></li>
+  Don’t trust surface-level info — verify with multiple sources.
+  <li><stong>Analyze:</stong></li>
+  Patterns, timelines, connections, relationships.
+  <li><stong>Produce intelligence:</stong></li>
+  Summarize your finding in a clear, actionable form.
+</ol>
