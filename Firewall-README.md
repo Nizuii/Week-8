@@ -98,3 +98,52 @@ A WAF protects **web applications and APIs** by monitoring and filtering HTTP/HT
 ## 🧪 5. Example Attack Scenarios
 
 ### **SQL Injection**
+GET /login?user=admin' OR 1=1 --
+
+- Traditional FW → Allows  
+- NGFW → May detect via IPS  
+- WAF → Blocks immediately
+
+### **Cross-Site Scripting**
+
+<script>alert('Hacked')</script>
+
+- Traditional FW → Allows  
+- NGFW → Might allow  
+- WAF → Blocks
+
+### **Malware C2 Over HTTPS**
+- Traditional FW → Allows (port 443)  
+- NGFW → Detects via DPI & SSL inspection  
+- WAF → Not relevant  
+
+---
+
+## 🎯 6. One-Line Summaries
+
+- **Traditional Firewall** → “I check IPs and ports. That’s it.”  
+- **NGFW** → “I understand apps, users, and threats.”  
+- **WAF** → “I protect websites and APIs from web-based attacks.”  
+
+---
+
+## 📚 7. Good For Learning / Revision
+- OSI model concepts  
+- Modern cybersecurity architecture  
+- Difference between network and application security  
+- Interview preparation (firewall-related questions)
+
+---
+
+## ⭐ 8. Recommended Further Topics
+- IPS vs IDS  
+- Zero Trust Network Architecture  
+- Cloud WAF vs On-prem WAF  
+- Common firewall bypass techniques  
+- Application-layer vs network-layer attacks  
+
+---
+
+### 📝 License
+This README is free to use, improve, or include in your own learning repositories.
+
