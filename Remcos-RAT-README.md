@@ -29,3 +29,11 @@
     <li>It includes anti-analysis/sandbox checks: if it senses it’s being “watched” (via virtualised environment), it may stop execution to avoid detection.</li>
   </ul>
 </ol>
+
+<h2>What the malware (Remcos) can do</h2>
+<ul>
+  <li>Keylogging (recording keystrokes), capturing clipboard, screenshots.</li>
+  <li>Full remote access: interact with files, registry, processes, services, UI elements.</li>
+  <li>Audio & video surveillance: microphone, webcam, screen recording.</li>
+  <li>Download and execute further payloads (so this may be just initial foothold, with more bad stuff to come).</li>
+</ul>
