@@ -32,3 +32,12 @@ OSINT has many real world applications across various fields, especially in cybe
   <li>Monitoring brand reputation and detecting counterfeit products or fraud.</li>
   <li>Conducting background checks on potential clients, partners, or acquisitions.</li>
 </ul>
+
+### 4. Journalism and Media
+<ul>
+  <li>Fact-checking information and verifying sources.</li>
+  <li>Investigating stories by compiling data from social media and open records.</li>
+  <li>Tracking breaking news through real-time monitoring of public information.</li>
+</ul>
+
+## OSINT life cycle
