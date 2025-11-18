@@ -41,3 +41,14 @@ OSINT has many real world applications across various fields, especially in cybe
 </ul>
 
 ## OSINT life cycle
+The <strong>OSINT</strong> life cycle is a structured process used to gather, process, analyze and share intelligence from publicly available sources. It generally consists of 5 key stages that ensure intelligence is collected effectivly abd turned into actionable insights.
+
+### OSINT Life Cycle Stages
+
+<ol>
+  <li><strong>Planning and Direction</strong>: This first stage involves defining the intelligence requirements and objectives. It includes understanding what information is needed, why, and identifying relevant sources and tools to collect this information. Clear goals guide the whole OSINT process.</li>
+  <li><strong>Collection</strong>: In this phase, data is gathered from a variety of open sources such as websites, social media, news, forums, public records, and even the dark web. Tools and manual searches are used to collect relevant information according to the plan.</li>
+  <li><strong>Processing and Exploitation</strong>: The raw collected data is cleaned, organized, and transformed into a usable format. This may involve filtering out irrelevant information, translating content, extracting key details, and storing the information systematically.</li>
+  <li><strong>Analysis and Production</strong>: Analysts examine the processed data to identify patterns, trends, and insights. This step involves evaluating the reliability of sources, correlating information, and producing intelligence reports that provide clear, actionable conclusions aligned with the original objectives.</li>
+  <li><strong>Dissemination</strong>: The final intelligence products are shared with the intended audience or decision-makers in a clear and timely manner. Effective dissemination ensures the intelligence is used for its intended purpose, such as cybersecurity defense or strategic decision-making.</li>
+</ol>
