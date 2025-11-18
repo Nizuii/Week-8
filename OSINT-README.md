@@ -18,3 +18,17 @@ OSINT has many real world applications across various fields, especially in cybe
   <li>Conducting risk assessments of companies by analyzin their online exposure.</li>
   <li>Supporting incident response and digital forensics investigation with publicly available intelligence.</li>
 </ul>
+
+### 2. Law enforcements & Intelligence.
+<ul>
+  <li>Gather evidence and tracking suspects in criminal investigations.</li>
+  <li>Monitoring terrorist activities and potential threats using public information.</li>
+  <li>Verifying facts and informations from multiple open sources for intelligence reports.</li>
+</ul>
+
+### 3. Business and Competitive Intelligence
+<ul>
+  <li>Analyzing competitors’ activities, product launches, and market trends by collecting publicly available data.</li>
+  <li>Monitoring brand reputation and detecting counterfeit products or fraud.</li>
+  <li>Conducting background checks on potential clients, partners, or acquisitions.</li>
+</ul>
