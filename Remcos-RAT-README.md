@@ -45,7 +45,7 @@ Remcos wants to survive restarts so it sets persistance through:
   Runs every startup on every few minutes/
 - Windows services
 
-### Establishing connection with C2 server
+### 5. Establishing connection with C2 server
 Remcos reaches out the attackers command & control(C2)
 - Over TCP
 - Uusally on uncommon ports
@@ -58,7 +58,7 @@ It sends back:
 - Installed software
 This registers victims device into the attackers dashboard.
 
-### Full Remote Control Activated.
+### 6. Full Remote Control Activated.
 Once fully connected the attacker can:
 - Steal passwords
 - Capture keystrokes
