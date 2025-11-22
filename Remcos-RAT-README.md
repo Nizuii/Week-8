@@ -4,13 +4,23 @@
   <li>Remcos RAT was a tool originally developed as a legitimate remote administration software but has become widely used by cyber criminals to hijack computers, often for malicious purpose.</li>
 </ul>
 
-## How Remcos RAT infects a windows system.
-<ul>
-  <li>Attackers send phishing emails that commonly carry a ZIP archieve or icrosoft office document as an attachment.</li>
-  <li>ZIP files may contain deceptive shortcuts (LNK files) or documents with macros. Opening these files executes a hidden script or macro which starts the infection process.</li>
-  <li>These scripts (often PowerShell) download and run the actual remcos executable on the PC</li>
-  <li>Remcos uses techniques like process injection or process hollowing, allowing it to run inside trusted Windows processes, making detection much harder.</li>
-  <li>The malware manipulates Windows settings (for example, bypassing User Account Control by editing registry values) to gain persistence and higher privileges.</li>
-  <li>It ensures it launches automatically on every startup by making changes to the Windows Registry (such as adding entries under HKCU\Software\Microsoft\Windows\CurrentVersion\Run).</li>
-  <li>After infection, Remcos connects to its command and control (C2) server to receive commands from attackers and begin surveillance or further attacks on the compromised system.</li>
-</ul>
+## Remcos RAT Infection Mechanism.
+<ol>
+  <li><h3>Initial Delivery</h3></li>
+  <ul>
+    <li>A phishing email</li>
+    <li>An office document requiring macro enabled</li>
+    <li>A PDF pretending to need an update.</li>
+    <li>Cracked exe software.</li>
+  </ul>
+  <li><h3>Execution of downloader</h3></li>
+  <ul>
+    <li><strong>GuLoader</strong></li>
+    A tiny obfuscated downloader known for delivering Remcos.
+    <li><strong>VBA Macros or HTA Scripts</strong></li>
+    The document pop's up a fake message like:
+    ```bash
+    Enable content to view the document properly!
+    ```
+  </ul>
+</ol>
