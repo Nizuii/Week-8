@@ -27,3 +27,6 @@ Once the victim opens the malicious file, a downloader is executed. Common metho
 
   ```bash
   Enable content to view the document properly!
+
+- **Powershell downloader**
+  A hidden powershell command retrieves the payload from a remote server. This stage is quiet, quick & sneaky.
