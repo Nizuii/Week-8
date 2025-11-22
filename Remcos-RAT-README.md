@@ -30,3 +30,37 @@ Once the victim opens the malicious file, a downloader is executed. Common metho
 
 - **Powershell downloader**  
    A hidden powershell command retrieves the payload from a remote server. This stage is quiet, quick & sneaky.
+
+### 3. Decryption & Drop of Remcos Payload.
+Remcos rarely arrives in plain form. its almost always:
+- Encrypted
+- Packed
+- Obfuscated
+- Hidden in alternate data streams
+
+### 4. Persistance
+Remcos wants to survive restarts so it sets persistance through:
+- Registry key runs
+- Scheduled tasks  
+  Runs every startup on every few minutes/
+- Windows services
+
+### Establishing connection with C2 server
+Remcos reaches out the attackers command & control(C2)
+- Over TCP
+- Uusally on uncommon ports
+- Sometimes encrypted or obfuscated traffic.
+It sends back:
+- OS version
+- IP/Geolocation
+- Running processes
+- Usernames
+- Installed software
+This registers victims device into the attackers dashboard.
+
+### Full Remote Control Activated.
+Once fully connected the attacker can:
+- Steal passwords
+- Capture keystrokes
+- Turn on webcam
+- Move/Steal/Delete file
