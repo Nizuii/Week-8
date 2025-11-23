@@ -46,5 +46,4 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
    - Amazon, Apple, Tesla etc...
 
 2. The exploit almost required no skill:
-
    Just send a string containing ${jndi:ldap://...}.
