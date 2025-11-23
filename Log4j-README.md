@@ -1,5 +1,6 @@
 # What is Log4j?
 - Log4j is a logging library for java applications.
+
 - Every serious java applications uses some form of logging.
 - Log4j was one of the most popular choices for years.
 
@@ -23,3 +24,12 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
   - Data
   - Objects
   - Configurations
+
+- From remote directories like:
+
+  - LPAD
+  - RMI
+  - DNS
+
+- JNDI itself isn't evil - but log4j trusted userinput too much.
+  
