@@ -33,3 +33,17 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
 
 - JNDI itself isn't evil - but log4j trusted userinput too much.
   
+## Why it was so dangerous?
+
+1. Log4j was everywhere.
+
+   - Minecraft servers
+   - Enterprise servers
+   - Cloud systems
+   - IoT devices
+   - Banking apps
+   - Government apps
+   - Amazon, Apple, Tesla etc...
+
+2. The exploit almost required no skill:
+   Just send a string containing ${jndi:ldap://...}.
