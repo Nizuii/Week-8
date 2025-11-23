@@ -47,3 +47,6 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
 
 2. The exploit almost required no skill:  
    Just send a string containing **${jndi:ldap://...}**.
+
+3. The impact was full remotecode execution.
+4. Attackers were mass scanning the internet within hours of disclosure.
