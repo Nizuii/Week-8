@@ -19,6 +19,7 @@ Log4j wouldn't treat this as text. It would interpret it and actually make a net
 ## What is JNDI?
 - JNDI stands for **Java Naming & Directory Interface**.
 - A system to fetch:
+
   - Data
   - Objects
   - Configurations
