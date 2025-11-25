@@ -29,3 +29,5 @@
 2. **Authenticate**: "Prove you are who you claim" Password, MFA, SSO, Biometrics, Tokens.
 3. **Authorize**: "What are you allowed to do" IAM checks your role & permission (RBAC/ABAC).
 4. **Audit**: "Record what you did" Logs are kept for security, compliance and incident response.
+
+# What is PAM (Privi)
