@@ -10,7 +10,7 @@
   - Identity lifecycle (Create -> Modify -> Delete user)
 
 ## Why IAM is used?
-- IAM is used to control who can do inside an organizations system in a scalable and secure way.
+- IAM is used to control who can do what inside an organizations system in a scalable and secure way.
   1. To verify identity:  
      Every login - Employee, API, service - needs proof of who is accessing it.
   2. To prevent unauthorized access:  
