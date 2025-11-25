@@ -42,3 +42,16 @@
   - Password rotation
   - Approval workflows or elevated access
 
+# Why PAM is used?
+- **To prevent high risk admin credential**: Admin/Root/Domain admin accounts are gold to attackers. PAM stores these in secure vaults.
+- **To prevent privilege abuse**: Every privilege session is monitored or recorded. No silent misuse. No rogue admin actions.
+- **To provide Just in Time Access**: Admin get elevated permission only when needed then loose them when done.
+- **To rotate passwords automatically**:
+  no more:
+  - Default password.
+  - Shared admin account.
+  - Old root credentials lying around.
+- **To detect and block suspicios privileged activity.**
+  - If someone tries weird commands or jumps to sensitive systems PAM flags it.
+ 
+  ## Logic of PAM
