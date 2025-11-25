@@ -30,4 +30,15 @@
 3. **Authorize**: "What are you allowed to do" IAM checks your role & permission (RBAC/ABAC).
 4. **Audit**: "Record what you did" Logs are kept for security, compliance and incident response.
 
-# What is PAM (Privi)
+# What is PAM (Privileged Access Management)
+- PAM protects high risk, high permission accounts.
+- It manages Admin/Root access, database admin, cloud root etc...
+- It put these accounts inside secure vault, rotates passwords automatically & record their section.
+- It ensures that privileged access is granted only when needed, often through "Just-in-time" access.
+- Typical PAM components are:
+  - Priviledged credential vault.
+  - Session recording / Monitoring
+  - Just in time priviledged access
+  - Password rotation
+  - Approval workflows or elevated access
+
