@@ -21,3 +21,11 @@
      Create > Modify > Disable accounts automatically when employee's join/leave
   5. To ensure security policies:
      MFA, SSO, Password rules, device trust - all of it runs through IAM.
+
+## Logic of IAM.
+- IAM follows a simple but powerful chain of logic.
+
+1. **Identity**: "Who is trying to enter?" Every user/service is assigned a unique identity.
+2. **Authenticate**: "Prove you are who you claim" Password, MFA, SSO, Biometrics, Tokens.
+3. **Authorize**: "What are you allowed to do" IAM checks your role & permission (RBAC/ABAC).
+4. **Audit**: "Record what you did" Logs are kept for security, compliance and incident response.
